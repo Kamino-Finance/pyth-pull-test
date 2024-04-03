@@ -1,0 +1,19 @@
+{
+  "name": "pythpullbased",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@coral-xyz/anchor": "^0.29.0",
+    "@pythnetwork/price-service-client": ">=1.6.0",
+    "@pythnetwork/price-service-sdk": ">=1.6.0",
+    "@pythnetwork/pyth-solana-receiver": "^0.3.0",
+    "@pythnetwork/solana-utils": "*",
+    "@solana/web3.js": "^1.90.0"
+  }
+}
