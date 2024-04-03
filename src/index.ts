@@ -5,10 +5,7 @@ import {
   PublicKey,
 } from "@solana/web3.js";
 import { PriceServiceConnection } from "@pythnetwork/price-service-client";
-import {
-  InstructionWithEphemeralSigners,
-  PythSolanaReceiver,
-} from "@pythnetwork/pyth-solana-receiver";
+import { PythSolanaReceiver } from "@pythnetwork/pyth-solana-receiver";
 import { AnchorProvider, Program, Wallet } from "@coral-xyz/anchor";
 // import { MyFirstPythApp, IDL } from "./idl/my_first_pyth_app";
 
